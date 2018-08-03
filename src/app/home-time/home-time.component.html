@@ -1,0 +1,26 @@
+
+<h2 class="text-center">Please Use 24 Hours Clock</h2>
+<div class="container text-center">
+  
+    <div class="form-group">
+      <label for="inTimeH">In Time :</label>
+      <input type="text" [(ngModel)]="inTimeH" name="inTimeH" > <strong>:</strong>
+      <input type="text" [(ngModel)]="inTimeM" name="inTimeM">
+    </div>
+    <div class="form-group" style="margin-left: -30px;">
+      <label for="workTimeH">Work Hours :</label>
+      <input type="text"  [(ngModel)]="workTimeH" name="workTimeH"> <strong>:</strong>
+      <input type="number"  [(ngModel)]="workTimeM" name="workTimeM">
+    </div>
+
+    
+</div>
+<div class="text-center">
+    <button class="btn btn-success"  (click)="countIt()">Count !</button>
+</div>
+
+<div class="text-center">
+<h3>You Can Leave at :</h3>
+  <br>
+  <h3>{{outTimeH}} : {{outTimeM}}</h3>
+</div>
