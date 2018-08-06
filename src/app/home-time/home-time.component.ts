@@ -30,4 +30,5 @@ export class HomeTimeComponent implements OnInit {
           }
      
       }
+  this.outTimeH = outTimeH - 12
 }
