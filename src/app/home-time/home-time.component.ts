@@ -29,6 +29,6 @@ export class HomeTimeComponent implements OnInit {
       this.outTimeM = this.outTimeM - 60
           }
      
+          this.outTimeH = this.outTimeH - 12
       }
-  this.outTimeH = outTimeH - 12
 }
